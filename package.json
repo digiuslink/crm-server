@@ -14,7 +14,7 @@
     "dotenv": "^16.0.2",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
-    "parse-dashboard": "^4.1.4",
+    "parse-dashboard": "^2.2.0",
     "parse-server": "^5.2.5"
   },
   "devDependencies": {
