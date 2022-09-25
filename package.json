@@ -1,0 +1,23 @@
+{
+  "name": "crm_server",
+  "version": "1.0.0",
+  "description": "CRM Backend based on Parse server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon --no-deprecation ./index.js"
+  },
+  "author": "kfekairi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "parse-dashboard": "^4.1.4",
+    "parse-server": "^5.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
